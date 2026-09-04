@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Jumuah Light cover</title><desc id="desc">A mosque silhouette beneath rays of Friday light</desc>
+  <rect width="800" height="600" fill="#dae9f2"/><circle cx="608" cy="126" r="90" fill="#f6d27f"/><g stroke="#f6d27f" stroke-width="8" opacity=".55"><path d="M608 0v34M608 218v55M481 126h-62M736 126h64M516 35l-42-42M700 35l42-42"/></g>
+  <path d="M0 467h800v133H0zM142 467v-120h53v120m-11-120c0-62-32-88-32-88s-32 26-32 88m173 120V292h214v175m-196-175c0-79 89-121 89-121s89 42 89 121m117 175V330h54v137m-11-137c0-58-32-84-32-84s-32 26-32 84" fill="#244958"/>
+  <rect x="72" y="375" width="436" height="132" rx="35" fill="#fff" opacity=".95"/><text x="108" y="435" fill="#0d0c22" font-family="Georgia,serif" font-size="58" font-weight="700">Jumuah Light</text><text x="110" y="476" fill="#655c7a" font-family="Arial,sans-serif" font-size="22" letter-spacing="4">A BLESSED FRIDAY</text>
+</svg>

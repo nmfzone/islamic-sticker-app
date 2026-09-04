@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ramadan Nights and Eid cover</title><desc id="desc">A crescent moon and lanterns over a deep blue night</desc>
+  <rect width="800" height="600" fill="#182347"/><circle cx="612" cy="145" r="112" fill="#f6d27f"/><circle cx="661" cy="108" r="112" fill="#182347"/>
+  <g fill="#fff" opacity=".75"><circle cx="116" cy="92" r="4"/><circle cx="231" cy="142" r="5"/><circle cx="351" cy="76" r="3"/><circle cx="469" cy="167" r="4"/><circle cx="731" cy="68" r="4"/></g>
+  <g stroke="#f6d27f" stroke-width="6" fill="#ea4c89"><path d="M159 0v145M322 0v102"/><path d="M116 145h86l-15 137h-56z"/><path d="M288 102h68l-12 108h-44z"/></g>
+  <path d="M0 487Q160 391 324 475T800 429V600H0Z" fill="#253565"/>
+  <rect x="216" y="346" width="514" height="150" rx="39" fill="#fff" opacity=".95"/><text x="251" y="411" fill="#0d0c22" font-family="Georgia,serif" font-size="53" font-weight="700">Ramadan Nights</text><text x="253" y="458" fill="#655c7a" font-family="Arial,sans-serif" font-size="25" letter-spacing="5">&amp; EID JOY</text>
+</svg>

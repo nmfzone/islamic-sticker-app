@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/*
+ * Islamic WA Sticker — design tokens from DESIGN.md.
+ * Palette: white canvas, near-black ink, muted supporting text, pale soft
+ * surfaces, and pink reserved for primary actions / concise active emphasis.
+ * No unverified semantic (success/warning/error) colors are introduced.
+ */
+:root {
+  --background: #ffffff; /* canvas */
+  --foreground: #0d0c22; /* primary ink */
+  --card: #ffffff;
+  --card-foreground: #0d0c22;
+  --popover: #ffffff;
+  --popover-foreground: #0d0c22;
+  --primary: #ea4c89; /* accent pink — primary actions / active emphasis */
+  --primary-foreground: #ffffff; /* on-primary */
+  --secondary: #f8f8fa; /* surface-soft */
+  --secondary-foreground: #0d0c22;
+  --muted: #f8f8fa; /* surface-soft */
+  --muted-foreground: #655c7a; /* text-muted */
+  --accent: #f8f8fa; /* surface-soft */
+  --accent-foreground: #0d0c22;
+  --destructive: #0d0c22; /* not a verified semantic color; used only for a11y-critical contrast on destructive affordances */
+  --destructive-foreground: #ffffff;
+  --border: #e6e5ef; /* soft neutral edge derived from primary ink, kept quiet */
+  --input: #f8f8fa; /* search-control / compact-control surface */
+  --ring: #ea4c89; /* focus ring uses accent pink */
+  --radius: 0.5rem; /* 8px base; media + compact-control corners */
+
+  /* DESIGN.md spacing / geometry derived values (reference-driven) */
+  --gutter-desktop: 72px;
+  --gutter-desktop-lg: 72px;
+  --grid-gap: 36px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: 1rem; /* 16px notice-banner */
+
+  /* Media + grid geometry */
+  --aspect-media: 4 / 3;
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+  }
+}
+
+@layer utilities {
+  /* Flat surfaces without strong card shadows — the design guide explicitly
+     avoids elevated pack cards. */
+  .surface-flat {
+    background-color: var(--card);
+  }
+}

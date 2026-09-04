@@ -1,0 +1,20 @@
+.omo/
+.codegraph
+.opencode/
+.idea/
+.vscode/
+node_modules/
+.playwright-mcp/
+dist/
+.next/
+coverage/
+.env
+.env.*
+!.env.example
+
+# testing / playwright
+test-results/
+playwright-report/
+/out/
+*.tsbuildinfo
+next-env.d.ts

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Salam, Always cover</title><desc id="desc">Flowing salaam lettering with leaves and a warm arch</desc>
+  <rect width="800" height="600" fill="#f6e9dd"/><circle cx="650" cy="110" r="190" fill="#efc9bd" opacity=".72"/>
+  <path d="M78 464C139 313 196 190 314 102c75-56 167-52 242-10" fill="none" stroke="#335c4b" stroke-width="17" stroke-linecap="round"/>
+  <path d="M116 430c-13-58 7-98 61-122-1 58-20 97-61 122ZM172 321c3-52 31-84 84-96-15 54-43 86-84 96ZM233 223c15-46 48-68 99-65-26 45-59 67-99 65Z" fill="#5d806c"/>
+  <rect x="86" y="343" width="510" height="154" rx="42" fill="#fff" opacity=".92"/>
+  <text x="122" y="414" fill="#0d0c22" font-family="Georgia,serif" font-size="64" font-weight="700">Salaam</text>
+  <text x="125" y="461" fill="#655c7a" font-family="Arial,sans-serif" font-size="25" letter-spacing="5">PEACE BE WITH YOU</text>
+  <path d="M635 367c33-29 87-14 87 32 0 51-87 94-87 94s-87-43-87-94c0-46 54-61 87-32Z" fill="#ea4c89"/>
+</svg>
